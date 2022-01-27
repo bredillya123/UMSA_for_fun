@@ -1,0 +1,28 @@
+.contact {
+
+    &__list {
+        margin-bottom: 50px;
+    }
+
+    &__info {
+        padding: 15px;
+    }
+
+    &__elem {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.map {
+    padding: 15px;
+}

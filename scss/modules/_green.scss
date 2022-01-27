@@ -1,0 +1,108 @@
+.greenline {
+    background: #308e72;
+    height: 40px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img1 {
+        height: 26px;
+    }
+
+    &__img2 {
+        width: 30px;
+        height: 22px;
+    }
+
+    &__img3 {
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        font-size: .75rem;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__img {
+        padding: 1px;
+        height: 30px;
+        width: auto;
+        border: #fff solid 1px;
+        transition: all .2s;
+
+        &:hover {            
+            border: #ffc107 solid 1px;
+        }
+    }
+
+    &__elemsc {
+        margin-right: 10px;
+        margin-bottom: 3px;
+    }
+
+    &__search {
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            fill: #ffc107;
+        }
+    }
+
+    &__pad {
+        margin-left: 10px;
+        height: 38px;
+        background-color: #256c57c7;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: background-color .2s;
+
+        &:hover {
+            background-color: #256c57;
+        }
+    }
+
+    &__text {
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        font-size: .75rem;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__hr {
+        transition: all 0.2s;
+
+        &:hover {
+            text-decoration: underline;
+            color: #ffc107;
+        }
+
+        &::before {
+            font-weight: bolder;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: #ffc107;
+            content: '|';
+
+        }
+    }
+
+    &__curs {
+        color: #fff;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}

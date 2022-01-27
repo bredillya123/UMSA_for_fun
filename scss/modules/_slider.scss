@@ -1,0 +1,31 @@
+.slider {
+    // z-index: 40;
+    max-width: 1920px;
+    width: auto;
+    height: 380px;
+    min-width: 0;
+
+    &__item {
+        min-width: 0;
+        display: block;
+        max-width: 1920px;
+        width: auto;
+        height: 380px;
+        margin-bottom: 5px;
+    }
+
+    &__img {
+        min-width: 0;
+        max-width: 1920px;
+        width: auto;
+        height: 380px;
+    }
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}

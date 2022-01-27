@@ -1,0 +1,55 @@
+.rectorate {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f2f2f2;
+    
+    &__mar {
+        margin-bottom: 15px;
+    }
+
+    &__mainelem {
+        margin: 10px;
+        padding: 15px;
+        background-color: #fff;
+        box-shadow: #9e9e9e 0 0 2px 0;
+        display: flex;
+    }
+
+    &__mainimg {
+        width: 360px;
+        height: 245px;
+    }
+
+    &__info {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__name {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+    &__nauka {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    &__status {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    &__elem {
+        width: 50%;
+    }
+
+    &__flex {
+        display: flex;
+    }
+}

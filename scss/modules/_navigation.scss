@@ -1,0 +1,116 @@
+.navigation {
+    background: #fff;
+    z-index: 1;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__elem {
+        cursor: pointer;
+        color: #083808;
+        padding: 0 15px 1px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8125rem;
+        line-height: 3.125rem;
+        transition: 0.2s;
+
+        &:hover {
+            color: #236954;
+            background: #f8f9fa;
+        }
+
+        &:checked {
+            color: #236954;
+            background: #f2f2f2;
+        }
+    }
+
+    &__link {
+        cursor: pointer;
+        text-decoration: none;
+        color: #083808;
+        transition: 0.2s;
+
+        &:hover {
+            color: #236954;
+            background: #f8f9fa;
+        }
+
+        &:checked {
+            color: #236954;
+            background: #f2f2f2;
+        }
+    }
+
+    &__before {
+        &::after {
+            display: inline-block;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #ffb200;            
+            content: '\02C5';
+        }
+    }
+}
+
+.hover {
+    position: relative;
+
+    &:hover .sub-menu{
+        display: block;
+    }
+}
+
+.sub-menu {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    left: 0%;
+    width: 250px;
+    background: #fff;
+    line-height: 1rem;
+    
+
+    &__list {
+    // padding: 10px 14px 10px 14px;
+    background: #fff;
+    transition: 0.3s;
+
+    &:hover .sub-menu__text {
+        color: #fff;
+    }
+    }
+
+    &__text {
+        transition: 0.3s;
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        padding: 10px 14px 10px 14px;
+        font-family: 'Roboto', sans-serif;
+        font-size: .8125rem;
+        text-decoration: none;
+        color: #343a40;
+
+        &::before {
+            padding-top: 5px;
+            margin-right: 10px;
+            color: #ffb200;
+            font-size: 24px;
+            content: '\2022';
+        }
+
+        &:hover {
+            background: #ffb200;
+
+            &::before {
+                color: #fff;
+            }
+        }
+    }
+}

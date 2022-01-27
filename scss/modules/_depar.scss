@@ -1,0 +1,39 @@
+.dep {
+
+    &__elem {
+        display: flex;
+        padding: 10px;
+        border-top: 1px solid #dfdfdf;
+    }
+
+    &__img {
+        width: 280px;
+        height: 210px;
+        margin-right: 15px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    &__big-bold {
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    &__small-bold {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    &__text {
+        margin-bottom: 15px;
+    }
+}

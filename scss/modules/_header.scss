@@ -1,0 +1,47 @@
+.header {
+    background: #e3ebe7;
+    height: auto;
+
+    &__title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.img {
+    &__logo {
+        width: 30px;
+        height: 76px;
+        margin-right: 15px;
+    }
+
+    &__flag {
+        width: 6px;
+        height: 76px;
+        margin-right: 15px;
+    }
+
+    &__umsa {
+        width: 59px;
+        height: 58px;
+        margin-right: 15px;
+    }
+}
+
+.title__info {
+    line-height: 4.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 500;
+}
+

@@ -1,0 +1,53 @@
+.rector {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #ffffff;
+
+    &__name {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-weight: 400;
+        line-height: 1.2;
+        text-align: center;
+        color: #212529;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+
+    &__sub-title {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 16px;
+        font-weight: 300;
+        line-height: 1.2;
+        color: #212529;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        
+    }
+
+    &__title {
+        font-size: 1.125rem;
+        font-family: MontserratRegular,sans-serif;
+        margin-bottom: .7rem;
+        color: #26705a;
+    }
+
+    &__speach { 
+        font-weight: bolder;
+    }
+
+    &__text {
+        font-size: .875rem;
+        text-align: justify;
+        line-height: 1.4rem;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+
+    &__p  {
+        margin-top: 8px;
+    }
+}

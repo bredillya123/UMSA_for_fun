@@ -1,0 +1,323 @@
+// for mobile screens
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .greenline {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .mobnav {
+        display: block;
+        position: fixed;
+        z-index: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #e3ebe7;
+        width: 100%;
+
+        &--active {            
+            height: 100%;
+            overflow: scroll;
+        }
+
+        &__list {
+            display: none;
+            height: 400px;
+
+            &--active {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        &__elem {
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
+            text-decoration: none;
+            line-height: 1.5rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            &--yellow {
+                color: #333;
+                background: #ffb200;
+                border: 1px solid #f2f2f2;
+            }
+
+            &--green {
+                color: #fff;
+                background: #26705a;
+                border: 1px solid #f2f2f2;
+            }
+        }
+
+        &__block {
+            display: flex;  
+            align-items: center;
+            justify-content: center;      
+        }
+
+        &__img {
+            &--logo {
+                width: 30px;
+                height: 50px;
+            }
+
+            &--flag {
+                width: 4px;
+                height: 50px;
+            }
+
+            &--umsa {
+                width: 52px;
+                height: 53px;
+            }
+        }
+
+        &__title {    
+            margin-left: 0%;
+            margin-right: 20%;
+            font-size: 1.875rem;            
+            font-family: 'Roboto', sans-serif;            
+            color: #333;            
+            line-height: 4.4rem;
+        }
+    }
+
+    .mt {
+        margin-top: 80px;
+    }
+
+    .pt {
+        padding-top: 80px;
+    }
+
+    .burger {
+
+        &__button {
+            display: block;
+            width: 50px;
+            height: 70px;
+            background: #26705a;
+            position: relative;
+
+            &--active {
+                background: #ffb200;
+            }
+        }
+
+        &__line {
+            position: absolute;
+            background: #fff;
+            width: 25px;
+            height: 5px;
+            margin-top: -2.5px;
+            margin-left: -12.5px;
+            border-radius: 25%;
+            top: 50%;
+            left: 50%;
+
+            &--active {
+                background: #333;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                background: #fff;
+                width: 25px;
+                height: 5px;
+                margin-top: -2.5px;
+                margin-left: -12.5px;
+                border-radius: 25%;
+                top: -125%;
+                left: 50%;
+
+                &--active {
+                    background: #333;
+                }
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                background: #fff;
+                width: 25px;
+                height: 5px;
+                margin-top: -2.5px;
+                margin-left: -12.5px;
+                border-radius: 25%;
+                top: 236%;
+                left: 50%;
+            }
+        }
+    }
+
+    .search {
+
+        &__home {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__input {
+            transform: scale(1.2);
+            width: 100%;
+        }
+
+        &__button {
+            transform: scale(1.2);
+        }
+    }
+
+    .home__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--elem {
+            width: 80%;
+            margin-bottom: 15px;
+        }
+    }
+
+    .rector {
+
+        &__mobile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__about {
+            width: 100%;
+        }
+    }
+
+    .news {
+
+        &__mobile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__bottom {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+
+        &__text {
+            margin-top: 15px;
+        }
+    }
+
+    .rectorate {
+
+        &__flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__info {
+            text-align: center;
+        }
+
+        &__mainelem {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__name {
+            margin-top: 15px;
+        }
+
+        &__elem {
+            width: 90%;
+        }
+    }
+
+    .history {
+        &__block {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .dep {
+        &__elem {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__info {
+            margin-top: 15px;
+        }
+    }
+
+    .footer {
+        
+        &__mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__pos {
+            width: 90%;
+            margin-bottom: 15px;
+            background-color: #205d4b;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .button__apply {
+        width: 100%;
+        text-align: center;
+    }
+
+    .link__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-link {
+        font-size: 8px;
+    }
+
+    .lock {
+        overflow: hidden;
+    }
+}
+
+// fix problem
+@media screen and (min-width: 320px) and (max-width: 371px) {
+    .mobnav__title {
+        display: none;
+    }
+    .mobnav__block {
+        justify-content: space-between;
+    }
+}

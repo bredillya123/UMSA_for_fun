@@ -1,0 +1,24 @@
+.news__title-second {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #212529;
+}
+
+.news__elem-second {
+    box-shadow: #9e9e9e 0 0 2px 0;
+    padding: 20px;
+    border: #fff solid 1px;
+    transition: all .2s;
+    background-color: #f2f2f2;
+
+    &:hover {
+        border: solid 1px #ffb200;
+        background-color: #e3ebe7;
+    }
+}
+
+.video {
+    margin-bottom: 30px;
+}

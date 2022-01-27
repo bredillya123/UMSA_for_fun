@@ -1,0 +1,116 @@
+.news {
+    background-color: #e3ebe7;
+
+    &__big {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &__title {
+        padding-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.125rem;
+        color: #26705a;
+    }
+
+    &__elem {
+        padding: 15px;
+        margin-bottom: 15px;
+        border: solid 1px #ffb200;
+    }
+
+    &__top {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    &__date {
+        color: #ffb200;
+        font-size: .875rem;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__sub-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: .9375rem;
+        color: #333;
+        cursor: pointer;
+
+        &:hover {
+            color: #26705a;;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+    }
+
+    &__img {
+        width: 257px;
+        height: 135px;
+        margin-right: 10px;
+    }
+
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: .875rem;
+        margin-bottom: 1rem;
+    }
+
+    &__all {
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: .875rem;
+        background-color: #26705a;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 20px;
+        transition: all .2s;
+
+        &::after {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffb200;
+            content: '>';
+        }
+
+        &:hover {
+            color: #ffb200;
+        }
+    }
+
+    &__small {
+        background-color: #dcdcdc;
+        padding: 30px 15px 15px;
+    }
+
+    &__video {
+        width: 100%;
+        height: 220px;
+    }
+
+    &__videobox {
+        margin-bottom: 40px;
+    }
+}
+
+.site__map {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+    &:hover {
+        color: #26705a;
+    }
+
+    &--block {
+        display: flex;
+        flex-direction: column;
+    }
+}
